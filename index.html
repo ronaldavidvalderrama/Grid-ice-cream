@@ -1,47 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ice Cream Shop</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/variables.css">
 </head>
 <body>
-    <div class="div_logo">
-        <img src="storage/img/logo-crem-helado-v2.png">
-    </div>
-
-    <div class="div_menu">
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">BUY NOW</a></li>
-        </ul>
-    </div>
-
-    <div class="div_option">
-        <img src="storage/img/search item.png">
-        <img src="storage/img/buy item.png">
-    </div>
-
-    <div class="div_product">
-        <img src="storage/img/slogan.png">
-        <div class="div_ice-cream">
-            <img src="storage/img/IceCream-strawberry.png">
-            <img src="storage/img/IceCream-chocolat.png">
-            <img src="storage/img/IceCream-lemon.png">
+    <header>
+        <div class="div__logo">
+            <img src="storage/img/logo-crem-helado-v2.png" alt="">
         </div>
-    </div>
-
-    <div class="div_info">
-        <div class="div_content">
-            <h1>ICE CREAM SHOP</h1>
-            <span>FREE DELIVERY</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...</p>
+        <nav class="div__menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">BUY NOW</a></li>
+            </ul>
+        </nav>
+        <div class="div__option">
+            <img src="storage/img/search item.png" alt="">
+            <img src="storage/img/buy item.png" alt="">
         </div>
-        <a href="#">BUY NOW</a>
-    </div>
+    </header>
+
+    <main>
+        <section class="div__product">
+            <img src="storage/img/slogan.png" alt="" class="logo">
+            <div class="div__ice-cream">
+                <img src="storage/img/IceCream-strawberry.png" alt="">
+                <img src="storage/img/IceCream-chocolat.png" alt="">
+                <img src="storage/img/IceCream-lemon.png" alt="">
+            </div>
+        </section>
+        <section class="div__info">
+            <h1>Ice Cream Shop</h1>
+            <span>Free Delivery</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                ex ea commodo consequat. </p>
+            <div class="bottom__button">
+                <a href="#" class="btn">BUY NOW</a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

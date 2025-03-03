@@ -1,0 +1,38 @@
+:root {
+    --color-1: #4d1f0f; /* Marrón oscuro */
+    --color-2: #ffffff; /* Blanco */
+    --color-3: #ff6699; /* Rosa del botón */
+    --color-4: #8b5a2b; /* Marrón claro para detalles */
+}
+
+
+@font-face {
+    font-family: "Inter_28pt-Bold";
+    src: url(/storage/fonts/Inter_28pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Lalezar-Regular";
+    src: url(/storage/fonts/Lalezar-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inder-Regular";
+    src: url(/storage/fuentes/Inder/Inder-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: "Inter_semibold";
+    src: url(/storage/fuentes/Inter/static/Inter_18pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Inter_bold";
+    src: url(/storage/fuentes/Inter/static/Inter_18pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: "lalezar-regular";
+    src: url(/storage/fuentes/Lalezar/Lalezar-Regular.ttf);
+}
